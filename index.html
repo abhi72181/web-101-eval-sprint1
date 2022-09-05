@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-101 C1</title>
+    <style>
+      /* Write necessery Styles Here  */
+      .container{
+        width: 96%;
+        margin: auto;
+        /* border: 1px solid; */
+      }
+      .top{
+        width: 100%;
+        display: flex;
+        /* border: 1px solid red; */
+      }
+      .top-left{
+        width: 45%;
+        margin: 2%;
+        /* border: 1px solid green; */
+        /* align-self: flex-start; */
+      }
+      .top-right{
+        width: 45%;
+        margin: 2%;
+        /* border: 1px solid yellow; */
+        /* align-self: flex-end; */
+      }
+      .image-topleft{
+        width: 100%;
+      }
+      .inside-topright{
+        display: flex;
+      }
+      .mid-heading{
+        width: 65%;
+        margin: auto;
+        text-align: center;
+      }
+      .mid-p{
+        margin-top: -15px;
+      }
+      .mid-container{
+        width: 90%;
+        /* border: 1px solid teal; */
+        margin: auto;
+        display: flex;
+      }
+      .inside-midc{
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid yellow; */
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <div class="top-left">
+          <!-- Here put one h1 tag, one p tag and one img tag  -->
+          <h1>A smallcase is a basket of stocks that reflects an idea</h1>
+          <p>smallcases are portfolios of stocks or ETF's,that track a theme, strategy or objective</p>
+          <img class="image-topleft" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-09-01/Screenshot%202022-08-30%20at%2011.37.14%20AM_350619.png" alt="">
+        </div>
+        <div class="top-right">
+          <!-- 3 Child divs should come here. Each div should have one image one h2 tag and one p tag  -->
+          <div class="inside-topright">
+            <img class="image-topright" src="https://www.smallcase.com/static/images/svg/what-is-smallcase/2.svg" alt="">
+            <div>
+              <h2>Simple to understand</h2>
+              <p>smallcases are modern investing products based on simple ideas you can understand.</p>
+            </div>
+          </div>
+          <div class="inside-topright">
+            <img src="https://www.smallcase.com/static/images/svg/what-is-smallcase/2.svg" alt="">
+            <div>
+              <h2>Simple to understand</h2>
+              <p>smallcases are modern investing products based on simple ideas you can understand.</p>
+            </div>
+          </div>
+          <div class="inside-topright">
+            <img src="https://www.smallcase.com/static/images/svg/what-is-smallcase/2.svg" alt="">
+            <div>
+              <h2>Simple to understand</h2>
+              <p>smallcases are modern investing products based on simple ideas you can understand.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="mid-heading">
+          <!-- here you have to put one h1 tag and one p tag  -->
+          <h1>There is a smallcase for everyone</h1>
+          <p class="mid-p">Looking to start with a small investment or thinking of low volatility? Choose from a diverse menu</p>
+        </div>
+         <div class="mid-container">
+            <!-- Here You should have 4 Child divs which will make the cards. Each card will have one image one h2 tag and one p tag  -->
+            <div class="inside-midc">
+              <img src="https://www.smallcase.com/static/images/svg/LowVolatility.svg" alt="">
+              <h2>Low Volatility</h2>
+              <p>Go to stable returns at low volatility levels</p>
+            </div>
+            <div class="inside-midc">
+              <img src="https://www.smallcase.com/static/images/svg/LowVolatility.svg" alt="">
+              <h2>Low Volatility</h2>
+              <p>Go to stable returns at low volatility levels</p>
+            </div>
+            <div class="inside-midc">
+              <img src="https://www.smallcase.com/static/images/svg/LowVolatility.svg" alt="">
+              <h2>Low Volatility</h2>
+              <p>Go to stable returns at low volatility levels</p>
+            </div>
+            <div class="inside-midc">
+              <img src="https://www.smallcase.com/static/images/svg/LowVolatility.svg" alt="">
+              <h2>Low Volatility</h2>
+              <p>Go to stable returns at low volatility levels</p>
+            </div>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>
